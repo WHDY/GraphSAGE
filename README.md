@@ -1,10 +1,10 @@
-## GraphSAGE
+# GraphSAGE
 
 GraphSAGE of Pytorch version. 
 
-GCN-mean, mean, pooling and Attention based aggregated methods are implemented. 
+GCN-mean, Mean, Pooling and Attention based aggregated methods are implemented. 
 
-### Usage
+## Usage
 
 - Mean aggregator
 
@@ -20,7 +20,7 @@ GCN-mean, mean, pooling and Attention based aggregated methods are implemented.
 
 - Pooling aggregator(max)
 
-  ```p
+  ```
   python train.py --agg-type Pooling --pool-fun max --h-dim 128
   ```
 
