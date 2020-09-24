@@ -92,3 +92,4 @@ class supervisedGraphSAGE(nn.Module):
             if 'weight' in name:
                 L2_reg += torch.square(torch.norm(param))
         return L2_reg
+
