@@ -82,8 +82,8 @@ class supervisedGraphSAGE(nn.Module):
         embeddings = hidden_embeddings[0]
 
         out = self.fc(embeddings)
-        out = F.relu(out)
-        out = F.softmax(out, dim=1)
+        # out = F.relu(out)
+        # out = F.softmax(out, dim=1)
         return out
 
     def L2_reg(self):
