@@ -84,6 +84,7 @@ class supervisedGraphSAGE(nn.Module):
         out = self.fc(embeddings)
         # out = F.relu(out)
         # out = F.softmax(out, dim=1)
+        
         return out
 
     def L2_reg(self):
